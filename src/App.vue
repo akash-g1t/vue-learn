@@ -9,6 +9,7 @@
       <router-link to="/vtext">VText</router-link> |
       <router-link to="/vbind">VBind</router-link> |
       <router-link to="/von">VOn</router-link> |
+      <router-link to="/vform">VForm</router-link> |
     </div>
     <router-view/>
   </div>

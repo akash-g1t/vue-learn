@@ -5,6 +5,7 @@ import IfElse from '../views/IfElse'
 import Show from '../views/Show'
 import VBind from '../views/VBind'
 import VOn from '../views/VOn'
+import VForm from '../views/VForm'
 
 Vue.use(VueRouter)
 
@@ -58,6 +59,11 @@ const routes = [
     path: '/von',
     name: 'VOn',
     component: VOn
+  },
+  {
+    path: '/vform',
+    name: 'VForm',
+    component: VForm
   },
 ]
 

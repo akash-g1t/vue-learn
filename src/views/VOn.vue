@@ -16,6 +16,7 @@
         <h2>v-on:click="title3 = 'no no no!'"</h2>
         <input type="text" v-model="title3">
         <button v-on:click="title3 = 'no no no!'">Click</button>
+        <button @click="title3 = 'no no no!'">Click</button>
     </div>
 </template>
 
