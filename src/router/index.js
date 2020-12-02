@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import IfElse from '../views/IfElse'
 import Show from '../views/Show'
+import VBind from '../views/VBind'
+import VOn from '../views/VOn'
 
 Vue.use(VueRouter)
 
@@ -45,7 +47,18 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  }
+  },
+  {
+    path: '/vbind',
+    name: 'VBind',
+    component: VBind
+  },
+  
+  {
+    path: '/von',
+    name: 'VOn',
+    component: VOn
+  },
 ]
 
 const router = new VueRouter({

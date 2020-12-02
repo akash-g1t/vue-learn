@@ -6,7 +6,9 @@
       <router-link to="/ifelse">If-Else</router-link> |
       <router-link to="/show">Show</router-link> |
       <router-link to="/vfor">VFor</router-link> |
-      <router-link to="/vtext">VText</router-link>
+      <router-link to="/vtext">VText</router-link> |
+      <router-link to="/vbind">VBind</router-link> |
+      <router-link to="/von">VOn</router-link> |
     </div>
     <router-view/>
   </div>
